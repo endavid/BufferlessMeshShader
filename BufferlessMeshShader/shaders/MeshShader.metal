@@ -142,12 +142,11 @@ void objectStage(object_data MeshPayload& payload [[payload]],
     }
     // transform
     float aspect = 1;
-    float4x4 projection = perspective(0.5, -2, 4, aspect);
+    float4x4 projection = perspective(0.5, 0.01, 50, aspect);
     float4x4 view = rotationY(0);
-    view[3] = float4(0, 0, -10, 1);
     float t = 0;//uni.time;
     float4x4 modelTr = rotationX(-PI/3.8) * rotationY(-PI/4 + 0.5 * sin(t));
-    modelTr[3] = float4(objCenter, 0, 1);
+    modelTr[3] = float4(objCenter, -6, 1);
     payload.transform = projection * view * modelTr;
     // Set the output submesh count for the mesh shader.
     // Because the mesh shader is only producing one mesh, the threadgroup grid size is 1 x 1 x 1.
