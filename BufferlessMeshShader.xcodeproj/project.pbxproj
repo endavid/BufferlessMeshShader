@@ -42,6 +42,7 @@
 		63C148902B6068A2001C2B92 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 		63C148922B606932001C2B92 /* TextureUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureUtils.swift; sourceTree = "<group>"; };
 		63C148942B606999001C2B92 /* MeshPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshPlugin.swift; sourceTree = "<group>"; };
+		63C148962B6071A0001C2B92 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 		63C148612B6033CE001C2B92 = {
 			isa = PBXGroup;
 			children = (
+				63C148962B6071A0001C2B92 /* README.md */,
 				63C1486C2B6033CE001C2B92 /* BufferlessMeshShader */,
 				63C1486B2B6033CE001C2B92 /* Products */,
 			);
